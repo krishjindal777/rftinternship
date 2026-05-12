@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// Contact class to store name and phone
 class Contact {
     String name;
     String phone;
@@ -30,7 +29,7 @@ public class Day6 {
             System.out.println("0. Exit");
             System.out.print("Enter choice: ");
             choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine();
 
             switch (choice) {
                 case 1:
